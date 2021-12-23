@@ -8,6 +8,7 @@ public class ZooShareApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ZooShareApplication.class, args);
+		System.out.println("Hello!");
 	}
 
 }
