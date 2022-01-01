@@ -1,4 +1,4 @@
-package com.example.ZooShare.reps;
+package com.example.ZooShare.repsositories;
 
 import com.example.ZooShare.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;

@@ -1,4 +1,4 @@
-package com.example.ZooShare.reps;
+package com.example.ZooShare.repsositories;
 
 import com.example.ZooShare.entity.Comment;
 import com.example.ZooShare.entity.Post;
@@ -9,8 +9,8 @@ import java.util.Optional;
 
 public interface CommentRepository extends JpaRepository<Comment,Long> {
 
-    List<Comment> findAllByPost(Post post);
+//    List<Comment> findAllByPost(Post post);
 
 
-    Optional<Comment> findByIdAAndUserId(Long commentId,Long userId);
+    Optional<Comment> findByIdAndUserId(Long commentId,Long userId);
 }

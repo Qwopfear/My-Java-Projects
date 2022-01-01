@@ -1,4 +1,4 @@
-package com.example.ZooShare.reps;
+package com.example.ZooShare.repsositories;
 
 
 import com.example.ZooShare.entity.Post;
@@ -13,9 +13,9 @@ import java.util.Optional;
 public interface PostRepository extends JpaRepository<Post,Long> {
 
         //Find ALL user posts and sorted by date Decs(From new to oldest)
-    List<Post> findAllByUserOrderByCreatedDateDesc(User user);
+//    List<Post> findAllByUserOrderByCreatedDateDesc(User user);
         //Find ALL userS posts and sorted by date Decs(From new to oldest)
-    List<Post> findAllByOrderByCreatedDateDesc(User user);
+//    List<Post> findAllByOrderByCreatedDateDesc(User user);
 
     Optional<Post> findPostByIdAndUser(Long id,User user);
 
