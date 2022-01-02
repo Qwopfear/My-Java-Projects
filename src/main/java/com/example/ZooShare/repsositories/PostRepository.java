@@ -12,10 +12,10 @@ import java.util.Optional;
 @Repository
 public interface PostRepository extends JpaRepository<Post,Long> {
 
-        //Find ALL user posts and sorted by date Decs(From new to oldest)
-//    List<Post> findAllByUserOrderByCreatedDateDesc(User user);
-        //Find ALL userS posts and sorted by date Decs(From new to oldest)
-//    List<Post> findAllByOrderByCreatedDateDesc(User user);
+        //Find ALL user posts and sorted by date Decs(From newest to oldest)
+    List<Post> findAllByUserOrderByCreatedDateDesc(User user);
+        //Find ALL userS posts and sorted by date Decs(From newest to oldest)
+//     List<Post> findAllBy(User user);
 
     Optional<Post> findPostByIdAndUser(Long id,User user);
 
