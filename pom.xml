@@ -39,22 +39,21 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-rest</artifactId>
 		</dependency>
-
-		<!-- Spring Security -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
+
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
-			<artifactId>gson-parent</artifactId>
+			<artifactId>gson</artifactId>
 			<version>2.8.9</version>
 		</dependency>
-		<!-- JBT -->
+		<!-- JWT -->
 		<dependency>
 			<groupId>io.jsonwebtoken</groupId>
-			<artifactId>jjwt-extensions</artifactId>
-			<version>0.11.2</version>
+			<artifactId>jjwt</artifactId>
+			<version>0.9.0</version>
 		</dependency>
 
 
