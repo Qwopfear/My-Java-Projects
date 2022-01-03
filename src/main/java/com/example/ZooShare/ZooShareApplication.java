@@ -9,7 +9,7 @@ public class ZooShareApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ZooShareApplication.class, args);
 		System.out.println("Hello!");
-		System.out.println("Spring seq");
+		System.out.println("On project works only one person");
 	}
 
 }
