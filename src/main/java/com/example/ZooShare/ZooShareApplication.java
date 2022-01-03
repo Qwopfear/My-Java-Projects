@@ -10,6 +10,8 @@ public class ZooShareApplication {
 		SpringApplication.run(ZooShareApplication.class, args);
 		System.out.println("Hello!");
 		System.out.println("On project works only one person");
+		System.out.println("Test 2");
+
 	}
 
 }
